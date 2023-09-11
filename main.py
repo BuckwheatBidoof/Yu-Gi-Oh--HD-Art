@@ -4,6 +4,7 @@ import api
 
 #*================================================================
 
+# Pulls up prompt to enter EDOPro directory
 def directory_event():
     global path
     path = filedialog.askdirectory()
@@ -17,6 +18,7 @@ def directory_event():
     textbox.configure(state="disabled")
     download_button.configure(state="normal")
 
+# Enters external function to download cards from card IDs
 def download_cards(download_all_cards):
     download_button.configure(state="disabled")
     if not download_all_cards:
@@ -40,7 +42,11 @@ ctk.deactivate_automatic_dpi_awareness()
 ctk.set_window_scaling(1.3)
 ctk.set_widget_scaling(1.25)
 
+#* =================================================================
+
 #widgets
+
+# title/header
 label = ctk.CTkLabel(
     window, 
     text="Yu-Gi-Oh! EDOPro\nHD Image Downloader", 
@@ -49,6 +55,7 @@ label = ctk.CTkLabel(
     pady=10)
 label.pack(expand=True)
 
+# instructions
 instructions = ctk.CTkLabel(
     window, 
     text="Select EDOPro Root Folder", 
@@ -57,7 +64,7 @@ instructions = ctk.CTkLabel(
     pady=10)
 instructions.pack(expand=True)
 
-#directory path
+#directory path text
 textbox = ctk.CTkTextbox(
     window, 
     state="disabled", 
@@ -68,6 +75,7 @@ textbox = ctk.CTkTextbox(
     pady=5)
 textbox.pack(expand=True)
 
+# select folder button
 folder_button = ctk.CTkButton(
     window, 
     text="Select Folder", 
@@ -75,6 +83,7 @@ folder_button = ctk.CTkButton(
     font=("Terminal", 14))
 folder_button.pack(padx=5, pady=5, expand=True)
 
+# checkbox to enable download of rush duel/etc
 check_var = ctk.BooleanVar(value=False)
 checkbox = ctk.CTkCheckBox(
     window, 
@@ -85,6 +94,7 @@ checkbox = ctk.CTkCheckBox(
     offvalue=False)
 checkbox.pack(padx=5,pady=5, expand=True)
 
+# download button
 download_button = ctk.CTkButton(
     window, 
     text="Download", 
@@ -93,6 +103,7 @@ download_button = ctk.CTkButton(
     state="disabled")
 download_button.pack(padx=5, pady=5, expand=True)
 
+# warning/notice text
 notice = ctk.CTkLabel(
     window,
     text="*Including Rush Duel will make\n"
@@ -102,5 +113,5 @@ notice = ctk.CTkLabel(
     font=("Terminal", 12))
 notice.pack(padx=5, pady=5, expand=True)
 
-#run
+#run window
 window.mainloop()
