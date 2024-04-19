@@ -16,7 +16,7 @@ The EDOPro Yugioh Card Image Downloader is a user-friendly, one-click solution d
 
 ## Usage
 
-1. Download the latest release of the EDOPro Yugioh Card Image Downloader from the [Releases](https://github.com/BuckwheatBidoof/EDOPro-HD-Image-Downloader/releases) section.
+1. Download the latest release of the EDOPro Yugioh Card Image Downloader from the [Releases](https://github.com/c-bejar/EDOPro-HD-Image-Downloader/releases) section.
 
 2. Run the downloaded `.exe` file or the included `Bat File`.
 
