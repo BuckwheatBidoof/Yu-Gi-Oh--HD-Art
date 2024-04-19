@@ -18,7 +18,7 @@ The EDOPro Yugioh Card Image Downloader is a user-friendly, one-click solution d
 
 1. Download the latest release of the EDOPro Yugioh Card Image Downloader from the [Releases](https://github.com/BuckwheatBidoof/EDOPro-HD-Image-Downloader/releases) section.
 
-2. Run the downloaded `.exe` file or the included `Shortcut`.
+2. Run the downloaded `.exe` file or the included `Bat File`.
 
 3. Choose your preferred option:
    - **No Rush Duel/Speed Duel Skills**: Downloads card images without Rush Duel/Speed Duel skills.
