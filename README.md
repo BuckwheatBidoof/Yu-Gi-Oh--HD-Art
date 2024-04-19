@@ -1,7 +1,7 @@
 # EDOPro Yugioh Card Image Downloader
 
 
-<img src="https://raw.githubusercontent.com/c-bejar/EDOPro-HD-Image-Downloader/main/images/ignis_logo.png" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/c-bejar/EDOPro-HD-Image-Downloader/main/images/ignis_logo.png" alt="EDOPro Logo" width="200"/>
 
 `* Not Affiliated with EDOPro or its team.`
 
